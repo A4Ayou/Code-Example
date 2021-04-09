@@ -1,2 +1,17 @@
 # Notebook
 .ipynb_checkpoints
+
+# Log files
+.log
+
+#Pycache
+*__pycache__*
+
+# OS generated files
+.DS_Store
+
+# Exclude CSV data files
+notebooks/input_data/*
+
+# Create exceptions to the above rule
+!notebooks/input_data/.gitkeep
